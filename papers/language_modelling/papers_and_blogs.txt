@@ -8,3 +8,6 @@ https://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf - Dropout
 https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf - Improving Language Understanding by Generative Pre-Training (GPT-1)
 https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf - language_models_are_unsupervised_multitask_learners (GPT-2)
 https://arxiv.org/pdf/2005.14165 - Language Models are Few-Shot Learners (GPT-3)
+https://arxiv.org/pdf/1606.08415 - GELU
+https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf - Xavier initialization
+https://docs.pytorch.org/tutorials/recipes/recipes/amp_recipe.html - automatic mixed precision

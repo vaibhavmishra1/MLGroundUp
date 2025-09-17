@@ -251,12 +251,6 @@ while x.size(1) < max_length:
         
 
 
-for i in range(num_sequence):
-    tokens = x[i, :max_length].tolist()
-    decoded = enc.decode(tokens)
-    print(decoded)
-    print('---------------')
-
 
 class DataLoader:
     def __init__(self, text, B, T, process_rank, process_world_size):
@@ -290,7 +284,7 @@ grad_accumulation_steps = total_batch_size // (B*T*ddp_world_size)
 # Training hyperparameters
 max_learning_rate = 6e-4  # Reduced learning rate
 min_learning_rate = 6e-5
-max_iters = 100
+max_iters = 1000
 warmup_iters = max_iters // 10  # Warmup period
 max_grad_norm = 1.0  # Gradient clipping threshold
 weight_decay = 0.1   # L2 regularization

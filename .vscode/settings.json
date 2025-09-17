@@ -1,0 +1,7 @@
+{
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": "${command:python.interpreterPath}",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ]
+}
