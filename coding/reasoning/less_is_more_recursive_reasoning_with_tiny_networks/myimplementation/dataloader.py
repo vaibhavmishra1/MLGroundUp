@@ -22,7 +22,10 @@ class SudokuExtremeDataset(Dataset):
         return data, len(data['inputs'])
     
     def __len__(self):
-        return self.subsample
+        if self.subsample !=0:
+            return self.subsample
+        else:
+            return len(self.data_len)
 
     def __getitem__(self, index):
         input = self.data['inputs'][index]
