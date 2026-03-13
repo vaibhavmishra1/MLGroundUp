@@ -3,3 +3,4 @@
 **/*.npy
 **/*.json
 **/*.pyc
+**/*.jsonl
